@@ -1,0 +1,12 @@
+diff --git a/libqpdf.pc.in.orig b/libqpdf.pc.in
+index d45df49..2e78417 100644
+--- a/libqpdf.pc.in.orig
++++ b/libqpdf.pc.in
+@@ -6,6 +6,6 @@ includedir=@includedir@
+ Name: libqpdf
+ Description: PDF transformation library
+ Version: @PACKAGE_VERSION@
+-Requires.private: zlib, libjpeg
++Requires.private: zlib
+ Libs: -L${libdir} -lqpdf
+ Cflags: -I${includedir}
